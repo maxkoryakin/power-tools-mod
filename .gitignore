@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Forge / runs
+run/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+EOF
