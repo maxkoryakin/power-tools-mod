@@ -1,4 +1,4 @@
-package com.noexitsigns.powertools;
+package com.noexitsigns.power_tools;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;

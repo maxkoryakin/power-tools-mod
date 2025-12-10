@@ -1,4 +1,4 @@
-package com.noexitsigns.powertools;
+package com.noexitsigns.power_tools;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
