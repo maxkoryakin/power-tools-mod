@@ -17,6 +17,10 @@ public class ModItems {
             ITEMS.register("lithium_ore",
                     () -> new BlockItem(ModBlocks.LITHIUM_ORE.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_LITHIUM =
+            ITEMS.register("raw_lithium",
+                    () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }

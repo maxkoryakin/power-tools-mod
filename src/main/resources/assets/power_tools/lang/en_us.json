@@ -1,3 +1,4 @@
 {
-  "block.power_tools.lithium_ore": "Lithium Ore"
+  "block.power_tools.lithium_ore": "Lithium Ore",
+  "item.power_tools.raw_lithium": "Raw Lithium"
 }

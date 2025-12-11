@@ -21,6 +21,7 @@ public class ModCreativeTabs {
                             .icon(() -> new ItemStack(ModItems.LITHIUM_ORE_ITEM.get()))
                             .displayItems((params, output) -> {
                                 output.accept(ModItems.LITHIUM_ORE_ITEM.get());
+                                output.accept(ModItems.RAW_LITHIUM.get());
                             })
                             .build()
             );

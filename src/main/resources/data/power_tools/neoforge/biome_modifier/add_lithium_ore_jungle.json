@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_jungle",
+  "features": "power_tools:lithium_ore_jungle",
+  "step": "underground_ores"
+}
