@@ -1,7 +1,8 @@
 {
-  "itemGroup.power_tools": "Example Mod Tab",
-  "block.power_tools.example_block": "Example Block",
-  "item.power_tools.example_item": "Example Item",
+  "itemGroup.power_tools": "Power Tools",
+
+  "block.power_tools.lithium_ore": "Lithium Ore",
+  "item.power_tools.raw_lithium": "Raw Lithium",
 
   "power_tools.configuration.title": "Power Tools Configs",
   "power_tools.configuration.section.power_tools.common.toml": "Power Tools Configs",
