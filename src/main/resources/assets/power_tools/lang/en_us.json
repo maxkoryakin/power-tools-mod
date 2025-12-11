@@ -1,4 +1,13 @@
 {
-  "block.power_tools.lithium_ore": "Lithium Ore",
-  "item.power_tools.raw_lithium": "Raw Lithium"
+  "itemGroup.power_tools": "Example Mod Tab",
+  "block.power_tools.example_block": "Example Block",
+  "item.power_tools.example_item": "Example Item",
+
+  "power_tools.configuration.title": "Power Tools Configs",
+  "power_tools.configuration.section.power_tools.common.toml": "Power Tools Configs",
+  "power_tools.configuration.section.power_tools.common.toml.title": "Power Tools Configs",
+  "power_tools.configuration.items": "Item List",
+  "power_tools.configuration.logDirtBlock": "Log Dirt Block",
+  "power_tools.configuration.magicNumberIntroduction": "Magic Number Text",
+  "power_tools.configuration.magicNumber": "Magic Number"
 }
