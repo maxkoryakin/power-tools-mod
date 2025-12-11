@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "power_tools:block/lithium_ore"
+    }
+  }
+}
