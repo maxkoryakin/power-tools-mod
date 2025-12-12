@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_jungle",
+  "features": [
+    "power_tools:ore_lithium_upper_jungle",
+    "power_tools:ore_lithium_middle_jungle",
+    "power_tools:ore_lithium_small_jungle"
+  ],
+  "step": "underground_ores"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "power_tools:lithium_ore"
+    "power_tools:lithium_ore",
+    "power_tools:deepslate_lithium_ore"
   ]
 }

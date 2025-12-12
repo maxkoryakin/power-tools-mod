@@ -56,6 +56,14 @@ public class PowerTools {
     public static final DeferredItem<BlockItem> LITHIUM_ORE_ITEM =
             ITEMS.registerSimpleBlockItem("lithium_ore", LITHIUM_ORE);
 
+    // Deepslate Lithium Ore block
+    public static final DeferredBlock<Block> DEEPSLATE_LITHIUM_ORE = BLOCKS.register("deepslate_lithium_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
+
+    // Block item for Deepslate Lithium Ore
+    public static final DeferredItem<BlockItem> DEEPSLATE_LITHIUM_ORE_ITEM =
+            ITEMS.registerSimpleBlockItem("deepslate_lithium_ore", DEEPSLATE_LITHIUM_ORE);
+
     // Raw Lithium item
     public static final DeferredItem<Item> RAW_LITHIUM =
             ITEMS.registerSimpleItem("raw_lithium");
@@ -71,6 +79,7 @@ public class PowerTools {
                                 // Items shown in the Power Tools tab
                                 output.accept(RAW_LITHIUM.get());
                                 output.accept(LITHIUM_ORE_ITEM.get());
+                                output.accept(DEEPSLATE_LITHIUM_ORE_ITEM.get());
                             })
                             .build());
 

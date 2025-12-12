@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "power_tools:ore_lithium",
+    "power_tools:ore_lithium_lower"
+  ],
+  "step": "underground_ores"
+}

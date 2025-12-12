@@ -3,6 +3,7 @@
 
   "block.power_tools.lithium_ore": "Lithium Ore",
   "item.power_tools.raw_lithium": "Raw Lithium",
+  "block.power_tools.deepslate_lithium_ore": "Deepslate Lithium Ore",
 
   "power_tools.configuration.title": "Power Tools Configs",
   "power_tools.configuration.section.power_tools.common.toml": "Power Tools Configs",
