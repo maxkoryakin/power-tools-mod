@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "power_tools:block/pulverizer_mill" },
+    "facing=east":  { "model": "power_tools:block/pulverizer_mill", "y": 90 },
+    "facing=south": { "model": "power_tools:block/pulverizer_mill", "y": 180 },
+    "facing=west":  { "model": "power_tools:block/pulverizer_mill", "y": 270 }
+  }
+}

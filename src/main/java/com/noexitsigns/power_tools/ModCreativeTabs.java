@@ -18,15 +18,17 @@ public class ModCreativeTabs {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> POWER_TOOLS_TAB =
             CREATIVE_MODE_TABS.register("power_tools_tab",
                     () -> CreativeModeTab.builder()
-                            // Uses your existing translation key: "itemGroup.power_tools" in en_us.json
+                            // Uses existing translation key: "itemGroup.power_tools" in en_us.json
                             .title(Component.translatable("itemGroup.power_tools"))
                             .withTabsBefore(CreativeModeTabs.COMBAT)
                             .icon(() -> ModItems.RAW_LITHIUM.get().getDefaultInstance())
                             .displayItems((parameters, output) -> {
                                 // Items shown in the Power Tools tab
                                 output.accept(ModItems.RAW_LITHIUM.get());
+                                output.accept(ModItems.LITHIUM_CHUNK.get());
                                 output.accept(ModItems.LITHIUM_ORE_ITEM.get());
                                 output.accept(ModItems.DEEPSLATE_LITHIUM_ORE_ITEM.get());
+                                output.accept(ModItems.PULVERIZER_MILL_ITEM.get());
                             })
                             .build());
 

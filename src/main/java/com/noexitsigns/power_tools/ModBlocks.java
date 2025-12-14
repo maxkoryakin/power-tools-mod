@@ -1,5 +1,6 @@
 package com.noexitsigns.power_tools;
 
+import com.noexitsigns.power_tools.block.PulverizerMillBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,6 +25,13 @@ public class ModBlocks {
     // Deepslate Lithium Ore block
     public static final DeferredBlock<Block> DEEPSLATE_LITHIUM_ORE = BLOCKS.register("deepslate_lithium_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
+
+    // Pulverizer Mill block
+    public static final DeferredBlock<Block> PULVERIZER_MILL = BLOCKS.register("pulverizer_mill",
+            () -> new PulverizerMillBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)
+                    .strength(3.5F, 6.0F)
+                    .requiresCorrectToolForDrops()
+                    ));
 
     // Called from the main mod class to hook into the mod event bus
     public static void register(IEventBus eventBus) {

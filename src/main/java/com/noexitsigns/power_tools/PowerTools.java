@@ -1,5 +1,7 @@
 package com.noexitsigns.power_tools;
 
+import com.noexitsigns.power_tools.registry.ModBlockEntities;
+import com.noexitsigns.power_tools.registry.ModMenuTypes;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -36,6 +38,10 @@ public class PowerTools {
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModMenuTypes.MENUS.register(modEventBus);
+
+
 
         // Register ourselves for server and other game events we are interested in.
         // Only needed if this class itself has @SubscribeEvent methods.

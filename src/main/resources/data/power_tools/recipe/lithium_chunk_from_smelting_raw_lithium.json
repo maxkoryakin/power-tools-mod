@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "power_tools:raw_lithium"
+  },
+  "result": {
+    "id": "power_tools:lithium_chunk"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}
